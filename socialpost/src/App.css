@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body, html {
+  background-color: #c4c3c3;
+  font-size: 14px;
+  display: flex;
+  height: 100vh;
+  min-height: 720px;
+  margin: 24px;
+  justify-content: center;
+  align-items: center;
+  line-height: 18px;
+  overflow: hidden;
+}
+
+.card {
+  background-color: #fff;
+  width: 400px;
+  border-radius: 5px;
+  border: 1px solid rgb(230, 230, 230);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.commentInput {
+  display: flex;
+  align-items: center;
+}
+
+.commentInput img {
+  width: 32px;
+  padding: 9px 8px;
+}
+
+.commentInput textarea {
+  resize: none;
+  border: none;
+  margin: 16px;
+  width: calc(100% - 88px);
+  height: 18px;
+}
+
+.commentInput textarea:focus {
+  outline: none !important;
+}
+
+.postImage {
+  width: 100%;
+}
+
+.username {
+  padding: 8px;
+  font-weight: 700;
+  color: #262626;
+  display: flex;
+  align-items: center;
+}
+
+.username p {
+  margin-top: 13px;
+  margin-bottom: 1rem;
+  margin-left: 10px;
+}
+
+
+.username img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.commentInput p {
+  padding-left: 12px;
+}
+
+
+.status {
+  border-bottom: 1px solid #f2f2f2;
+  padding: 16px;
+
+}
+
+.status b {
+  color: #262626;
+
+}
+
+.like img {
+  padding: 10px 10px;
+  width: 45px;
+}
+
+@media screen and (max-width:786px) {
+  .card {
+    width: 100%;
+  }
+}
